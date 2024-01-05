@@ -1,3 +1,5 @@
 site_name: SCOOP main documentation site
 theme:
   name: material
+extra_css:
+  - stylesheets/extra.css
