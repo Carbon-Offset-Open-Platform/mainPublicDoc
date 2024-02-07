@@ -64,15 +64,23 @@ _Table 1.  SCOOP Objectives_
 A goal for SCOOP is to generalize the original COOP architecture to encompass an industry sector without significant rework.  Let's call this new scheme scaled COOP, or simply SCOOP.  COOP models a single supply chain, from digital twin to financial market offerings. SCOOP becomes an IT carbon accounting platform, much larger in scope, with dozens, possibly hundreds of digital twin models representing a cross section of the target industry, with potentially multiple applications.  COOP is still there, as a particular case.
 The SCOOP architecture represents a trivial modification to the original COOP architecture.  Let's start with the original COOP architecture, shown in Figure 1.
 
+![alt text](image.png)
+
 *Figure 1. Original COOP architecture.*
 
 The carbon offset securities delivered from this system are traded through a fintech app, shown in Figure 2.
 
+![alt text](image-1.png)
+
 *Figure 2. Carbon offset trading app.*
 Now let's turn Figure 1 and Figure 2 on their side to form an application stack, shown in Figure 3.
 
+![alt text](image-2.png)
+
 Figure 3. Carbon offset application stack.
 Figure 3 represents a fintech carbon offset ecosystem dedicated to the trading of carbon offset securities.  Also note how this structure resembles that of a traditional 3-tier architecture for an enterprise Web application.  This is an example of a SCOOP application.  SCOOP need not be circumscribed to fintech applications.  It might be possible to tally up the set of UNFCCC Nationally Determined Contributions (NDCs) to emissions reductions for a particular country.  The scale for such an application would be enormous; a carbon offset accounting app for offset trading may encompass a handful of carbon capture suppliers and consumers.  An NDC app might comprise several thousand, representing one or more industry sectors or even countries.
+
+![alt text](image-3.png)
 
 *Figure 4. SCOOP industry sector ecosystem.*
  
