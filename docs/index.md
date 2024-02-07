@@ -1,6 +1,6 @@
 # A Vision for Global Carbon Accounting
 
-### Introduction
+## Introduction
 SCOOP stands for Scalable Carbon Offset Open Platform.  It was initially intended as an [IT platform to support the financialization of carbon offsets]().
 This initial exploration work suggested that the platform requires a flexible architecture to keep pace with the understanding of GHG dynamics. There are three fundamental issues, namely,
 
@@ -18,7 +18,7 @@ If we acknowledge that the concept of carbon offsets will be in flux for the for
 
 Kumar Venkat has proposed that one possible method to tighten up carbon accounting is to carry out carbon accounting at the [industry sector level](https://illuminem.com/illuminemvoices/to-decarbonize-focus-on-sectors-rather-than-companies).  The promise of this approach is to provide the means to internalize at least some of the emissions currently treated as scope 3, generally treated as not accountable emissions.
 
-### Generalized Carbon Accounting Platform 
+## Generalized Carbon Accounting Platform 
 The development for this initiative is being carried out under the code name SCOOP, for Scalable or Sectoral COOP, where COOP comprises an earlier proposal for a carbon offset accounting system initially targeted for FinTech applications.  COOP stands for Carbon Offset Open Platform.
 
 SCOOP cannot be, out of necessity, a single architecture.  Rather, it is template or framework functioning as an architecture generator.  Each architecture instance is optimized for a specific industry sector.  This architecture is an instance of SCOOP that in turn becomes a tool to generate solution instances for that sector.
