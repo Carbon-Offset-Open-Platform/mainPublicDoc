@@ -1,6 +1,6 @@
-# A Vision for Global Carbon Accounting
+## A Vision for Global Carbon Accounting
 
-## Introduction
+### Introduction
 SCOOP stands for Scalable Carbon Offset Open Platform.  It was initially intended as an [IT platform to support the financialization of carbon offsets]().
 This initial exploration work suggested that the platform requires a flexible architecture to keep pace with the understanding of GHG dynamics. There are three fundamental issues, namely,
 
@@ -18,7 +18,7 @@ If we acknowledge that the concept of carbon offsets will be in flux for the for
 
 Kumar Venkat has proposed that one possible method to tighten up carbon accounting is to carry out carbon accounting at the [industry sector level](https://illuminem.com/illuminemvoices/to-decarbonize-focus-on-sectors-rather-than-companies).  The promise of this approach is to provide the means to internalize at least some of the emissions currently treated as scope 3, generally treated as not accountable emissions.
 
-## Generalized Carbon Accounting Platform 
+### Generalized Carbon Accounting Platform 
 The development for this initiative is being carried out under the code name SCOOP, for Scalable or Sectoral COOP, where COOP comprises an earlier proposal for a carbon offset accounting system initially targeted for FinTech applications.  COOP stands for Carbon Offset Open Platform.
 
 SCOOP cannot be, out of necessity, a single architecture.  Rather, it is template or framework functioning as an architecture generator.  Each architecture instance is optimized for a specific industry sector.  This architecture is an instance of SCOOP that in turn becomes a tool to generate solution instances for that sector.
@@ -64,27 +64,23 @@ _Table 1.  SCOOP Objectives_
 A goal for SCOOP is to generalize the original COOP architecture to encompass an industry sector without significant rework.  Let's call this new scheme scaled COOP, or simply SCOOP.  COOP models a single supply chain, from digital twin to financial market offerings. SCOOP becomes an IT carbon accounting platform, much larger in scope, with dozens, possibly hundreds of digital twin models representing a cross section of the target industry, with potentially multiple applications.  COOP is still there, as a particular case.
 The SCOOP architecture represents a trivial modification to the original COOP architecture.  Let's start with the original COOP architecture, shown in Figure 1.
 
-![alt text](image.png)
+![alt text](image-4.png)
 
 *Figure 1. Original COOP architecture.*
 
 The carbon offset securities delivered from this system are traded through a fintech app, shown in Figure 2.
 
-![alt text](image-1.png)
+![alt text](image-5.png)
 
 *Figure 2. Carbon offset trading app.*
 Now let's turn Figure 1 and Figure 2 on their side to form an application stack, shown in Figure 3.
 
-![alt text](image-2.png)
+![alt text](image-6.png)
 
-<<<<<<< HEAD
 *Figure 3. Carbon offset application stack.*
-=======
-Figure 3. Carbon offset application stack.
->>>>>>> 12d7dd1b1e5a9e3dd239d8033b816a4ee6193fef
 Figure 3 represents a fintech carbon offset ecosystem dedicated to the trading of carbon offset securities.  Also note how this structure resembles that of a traditional 3-tier architecture for an enterprise Web application.  This is an example of a SCOOP application.  SCOOP need not be circumscribed to fintech applications.  It might be possible to tally up the set of UNFCCC Nationally Determined Contributions (NDCs) to emissions reductions for a particular country.  The scale for such an application would be enormous; a carbon offset accounting app for offset trading may encompass a handful of carbon capture suppliers and consumers.  An NDC app might comprise several thousand, representing one or more industry sectors or even countries.
 
-![alt text](image-3.png)
+![alt text](image-7.png)
 
 *Figure 4. SCOOP industry sector ecosystem.*
  
