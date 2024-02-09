@@ -30,6 +30,16 @@ theme:
       accent: lime
   language: en
 
+nav:
+  - Home: 'index.md'
+  - HowTos:
+    - Documentation: 'howto/CollaborateWithDocumentation.md'
+  - Projects:
+    - PoC: 'projects/proofOfConcept.md'
+  - Research:
+    - Symmetric encryption hardware: 'research/SymmetricEncryptionHardware.md'
+  - About: 'about.md'
+
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
