@@ -38,6 +38,7 @@ nav:
     - PoC: 'projects/proofOfConcept.md'
   - Research:
     - Symmetric encryption hardware: 'research/SymmetricEncryptionHardware.md'
+    - System architecture: 'research/architecture.md'
   - About: 'about.md'
 
 markdown_extensions:
