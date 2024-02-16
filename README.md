@@ -1,5 +1,7 @@
 # mainPublicDoc
-Main documentation of the SCOOP project
+> The main documentation of the SCOOP project.
+
+Deployed at https://carbon-offset-open-platform.github.io/mainPublicDoc.
 
 ## Contribute
 
