@@ -3,7 +3,7 @@
 ## Introduction
 SCOOP stands for Scalable or Sectoral Carbon Offset Open Platform, an [IT platform initially targeted at the financialization of carbon offsets]().  SCOOP contains provisions for addressing GHG emission accounting issues considered intractable today, including the internalization of scope 3 emissions, the mapping of the attainment of net zero goals of individual entities or organizations to global goals at the state, country and eventually toward UNFCCC goals, and dynamic modeling that accurately reflects carbon accounting over time.  It also features a modular architecture that enables updating the architecture to reflect evolving assumptions and knowledge.
 
-Regarding financialization, a drag factor hampering the growth of carbon offsets is the one-of-a-kind nature for each offering. At issue is not only that the offering is unique, but also the methodology and architecture for the offering are also unique, depending on local conditions and governance. The one-of-a-kind nature for each offering makes it difficult to integrate tranches of carbon offset offerings into meaningful portfolios and the assembly of pooled investment securities that drive much of the securities trading today. While this consideration is valid for both compliance and voluntary carbon markets, it is especially acute in voluntary markets. Compliance markets are organized into large trading blocks, minimizing the impact of this issue somewhat. Still, markets where carbon is traded as a commodity do not exist today. Companies wishing to purchase offsets must transact with individual providers. Secondary markets for carbon, for instance similar to the way mortgages and debt instruments are traded, do not exist today.
+Regarding financialization, a drag factor hampering the growth of carbon offsets is the one-of-a-kind nature for each offering. At issue is not only that the offering is unique, but also the methodology and architecture for the offering are also unique, depending on local conditions and governance. The one-of-a-kind nature for each offering makes it difficult to integrate tranches of carbon offset offerings into meaningful portfolios and the assembly of pooled investment securities that drive much of the securities trading today. While this consideration is valid for both compliance and voluntary carbon markets, it is especially acute in voluntary markets. Compliance markets are organized into large trading blocks, minimizing the impact of this issue somewhat. Still, markets where carbon is traded as a commodity do not exist today. Companies wishing to purchase offsets must transact with individual providers. Furthermore, secondary markets for carbon enabling the discharge resale of carbon liabilities similar to reinsurance or debt markets are essential to attain liquidity. These instruments do not exist today, rendering carbon markets illiquid: transactions for carbon liabilities are one-of-a-kind items negotiated with a single vendor, leaving the buyer with the burden of proving whether the liability has been retired.
 
 A global carbon accounting capability would also enable governance at any scale, from local communities to global supply chains.  One possible application is providing hard and real-time carbon accounting for the EV industry, and perhaps solve the controversy of the emissions of EVs vs. ICE vehicles.  SCOOP would provide the means to quantify the emissions of a fleet of vehicles, by company or country throughout the entire life cycle of the vehicles and their supply chains, including direct and indirect emissions during operation, transportation from manufacturing to dealers and from dealers to consumers, during manufacturing and emissions in the extraction and refining of minerals, not only from the lithium in the batteries, but also in the manufacture of plastics and metals that go into the vehicle.
 
@@ -15,9 +15,12 @@ The platform is derived from initial work on carbon offsets, hence its name. Thi
 
     Scope 1 emissions, as applied to an entity represent direct emissions from operations, scope 2 are emissions from electricity and steam purchases, and scope 3 are emissions upstream and downstream the supply chains.  Today entities are not accountable for scope 3 emissions, and yet scope 3 can be as high as 80 or 90 percent of the entity's supply chain and hence carbon offsets are poor indicators and predictors for the attainment of net zero on a global basis.  Accountability for scope 3 emissions is challenging because entities do not have visibility or control over these emissions.  Issue #2 suggests an even more fundamental issue #3.
 
-3. **Net Zero GHG accounting is incomplete with respect to addition and additionality.** Offseting was meant to transition world economies toward a global net zero.  In practical terms, in an optimistic scenario, as more and more entities attain net zero, a portion of scope 3 emissions from one entity get internalized as scope 1 or 2 by another entity.  For instance, the emissions from hydrocarbons sold by a refinery are scope 3 for that refinery.  If these hydrocarbons are burned as fuel by another entity, the emissions become scope 1 for the purchaser.  However, transporting these hydrocarbons generates more emissions, and there are additional emissions from building the transportation infrastructure. Furthermore, if the burning is conducted by an unregulated entity, these emissions will not be accounted for.  Hence even if every entity claims to have reached net zero, collectively they haven't.  Without explicit measures to integrate net zero progress for participating entities, it is nearly impossible to get closure on scope 3 emissions where a portion remains orphaned and unclaimed.  Since emissions are liabilities, actors have an economic incentive to ignore them unless they are bound by specific obligations.  Additionality claims for most offsets are incomplete because the measures to claim an offset represent true removals are also incomplete.
+3. **Net Zero GHG accounting is incomplete with respect to addition and additionality.** Offsetting was meant to transition world economies toward a global net zero.  In practical terms, in an optimistic scenario, as more and more entities attain net zero, a portion of scope 3 emissions from one entity get internalized as scope 1 or 2 by another entity.  For instance, the emissions from hydrocarbons sold by a refinery are scope 3 for that refinery.  If these hydrocarbons are burned as fuel by another entity, the emissions become scope 1 for the purchaser.  However, transporting these hydrocarbons generates more emissions, and there are additional emissions from building the transportation infrastructure. Furthermore, if the burning is conducted by an unregulated entity, these emissions will not be accounted for.  Hence even if every entity claims to have reached net zero, collectively they haven't.  Without explicit measures to integrate net zero progress for participating entities, it is nearly impossible to get closure on scope 3 emissions where a portion remains orphaned and unclaimed.  Since emissions are liabilities, actors have an economic incentive to ignore them unless they are bound by specific obligations.  Additionality claims for most offsets are incomplete because the measures to claim an offset represent true removals are also incomplete.
 
-    This dynamic was noted by [Alicia Seiger][Seiger].  From this reasoning, it follows that even if every organization in the world reaches net zero does not guarantee that global net zero has been achieved, suggesting some fundamental flaws with the concept of carbon offsets.
+    This dynamic was noted by Alicia Seiger, of Stanford University [^1].  From this reasoning, it follows that even if every organization in the world reaches net zero does not guarantee that global net zero has been achieved, suggesting some fundamental flaws with the concept of carbon offsets.
+
+    
+[^1]: T. Heller, A. Seiger, Settling Climate Accounts: Navigating the Road to Net Zero, ISBN 978-3030836498, Palgrave Macmillan (October 21, 2021)
 
 If we acknowledge that the concept of carbon offsets will be in flux for the foreseeable future, it does not mean that the development work around carbon the original platform definition needs to be discarded, or that a start from scratch will be necessary at some point to factor in the evolution of carbon accounting concepts.  What is required is a resilient architecture, so it effortlessly evolves with new requirements, discoveries, and policies over time without costly reengineering, using well-known software engineering principles.
 
@@ -26,7 +29,7 @@ Kumar Venkat has proposed that one possible method to tighten up carbon accounti
 ## A Generalized Carbon Accounting Platform 
 Because of the broad range of applications, SCOOP cannot be a single architecture.  Rather, it is template or framework functioning as an architecture generator.  Each architecture instance is optimized for a specific industry sector.  Each sector-specific architecture is an instance of SCOOP that in turn becomes a tool to generate solution instances for that sector.
 
-The first implementations will be generated or compiled manually, but as methodologies mature, opportunities open up to apply automation, with the help of AI engines to assemble and maintain solution instances, taking into account commonality within an industry sector.
+The first implementations will be generated or compiled manually, but as methodologies mature, opportunities open to apply automation, with the help of AI engines to assemble and maintain solution instances, taking into account commonality within an industry sector.
 
 There are at least five objectives SCOOP must meet along at least five categories to be useful and effective, summarized in Table 1. These goals must eventually become defining features for the platform.  Starting from the top, SCOOP must be expressive, its instances able to represent **a broad range of carbon accounting-related applications** to fit any relevant industry segment, not just a single application stack.  The stacks provide apps with interfaces able to support applications not yet created.  For instance, carbon offset accounting is an important instance of carbon accounting as practiced today.  The industry acknowledges that carbon offsets come with significant flaws in terms of transparency, trust, and attestation, to the point that the concept is expected to evolve and perhaps get replaced eventually.  As an evolution of the original concept, the replacement will still contain elements of the original offset model. It is important that the corresponding carbon accounting platform be able to accommodate this evolution gracefully, without starting from scratch.
 
@@ -41,9 +44,9 @@ _Table 1.  SCOOP Objectives_
 |                   |Scope 1, 2 and 3 Emissions Monitoring |
 |||
 |Scalability        |Integration Paths for|
-|                   |&nbsp;&nbsp;> Single-application Instances to Whole Industry Segments |
-|                   |&nbsp;&nbsp;> Single Users to Local and Global Communities         |
-|                   |&nbsp;&nbsp;> Single Companies or Organizations to Industry Sectors to UNFCC Nationally Determined Contributions (NDCs)|
+|                   |&nbsp;&nbsp;· Single-application Instances to Whole Industry Segments |
+|                   |&nbsp;&nbsp;· Single Users to Local and Global Communities         |
+|                   |&nbsp;&nbsp;· Single Companies or Organizations to Industry Sectors to UNFCC Nationally Determined Contributions (NDCs)|
 ||
 |Capabilities       |Open-ended Multi-application Environments             |
 |                   |Continuous, Real-time Auditable, Traceable Carbon Assets|
@@ -75,47 +78,38 @@ When offset purchasers discover post facto that these estimates no longer hold e
 
 SCOOP models also explicitly track the internalization of scope 3 emissions as more entities or organizations are integrated within an industry segment carbon accounting, either voluntarily or through compliance requirements under a dynamic similar to the way carbon markets operate today. 
 
-The SCOOP sectoral approach lights a path for this internalization to happen. The process can be visualized through a thought experiment.  If two organizations decide to do carbon accounting jointly under the SCOOP framework, a portion of scope 3 emissions get internalized into scope 1 or 2 for one of the partners.  SCOOP documents how this happens and the carbon quantities involved.  
+The SCOOP sectoral approach lights a path for this internalization to happen. The process can be visualized through a thought experiment: if two organizations decide to do carbon accounting jointly under the SCOOP framework, a portion of scope 3 emissions get internalized into scope 1 or 2 for one of the partners.  SCOOP documents how this process takes place as part of carbon lifecycle monitoring, including the carbon quantities involved.  
 
 Following this train of thought, and more organizations join this SCOOP partnership, it becomes a consortium, and with each new member triggers additional scope 3 internalization.  If membership becomes de facto for 2 or 3 sectors, the mutual scope 3 emissions across the members get internalized. The goal here is coalescing emissions to ever larger jurisdictions, up to and possibly more whole countries.  Integration at the country level would enable very precise and credible NDC accounting.  The technical, business and political work that this integration process entails would still be daunting, but SCOOP offers a path to scope 3 accounting that does not exist today by other means.
 
 The data and insight from scope 3 accounting through this integration process is _actionable_.  It offers courses of action to optimize GHG mitigation outcomes, as well as qualified data to prove to regulatory agencies that these outcomes are quantitatively creditable.  An example of this cross-interaction is in district energy systems, where the waste heat from a nuclear power plant is used to heat or cool a nearby community.  
 
-There are multiple benefits derived from this scheme. The most obvious is a reduction in energy use by the community from electricity or burning fossil fuels. The power plant gets relief from environmental issues caused adverse heating when the heat is transferred to a body of water, or water consumption from cooling towers.  These schemes are in use today. SCOOP offers a mechanism to quantify the GHG emissions, positive or negative, from these exchange to ensure there are accurate financial pricing signals or environmental compliance assessments.  
+There are multiple benefits derived from this scheme. The most obvious is a reduction in energy use by the community from electricity or burning fossil fuels for heating or cooling buildings. The power plant gets relief from environmental issues due to adverse heating when the heat is transferred to a body of water, or water consumption from cooling towers.  These schemes are in use today. SCOOP offers a mechanism to quantify the GHG emissions, positive or negative, from these exchanges to ensure there are accurate financial pricing signals or environmental compliance assessments.  
 
-A similar dynamic is possible with the waste heat from data center operations. The main focus to date for sustainability in data centers has been on energy efficiency and offsetting through the purchase of clean energy. This is not surprising from a sectoral perspective, as most sustainability initiatives start with what a given organization can do internally. A sectoral collaboration opens a new vector for GHG emissions mitigation.
+A similar dynamic is possible with the waste heat from data center operations. The focus to date for sustainability in data centers has been on energy efficiency and offsetting through the purchase of clean energy. This is not surprising from a sectoral perspective, as most sustainability initiatives start with what a given organization can do internally. A sectoral collaboration opens a new vector for GHG emissions mitigation.
 
 SCOOP is also **open-ended with respect to applications**. A valuable trait of a solution initially targeting CO2 as a GHG is being retargetable to accommodate the effect of other GHGs such as CH4 and NOx at minimal cost, perhaps by changing parameters in the physical or chemical model.  For instance, the global warming effect of CH4 is initially much larger than that of CO2, while the effect of CO2 is permanent within a humanity historical time scale, CH4 decays much faster, a behavior easily handled with the time-varying models under SCOOP.
 
+An essential architectural trait of SCOOP is that to the extent possible, it does not assume technical or technological breakthroughs. Its value proposition derives from the integration of already existing components. The SCOOP  **software architecture** reflects this principle. The methodologies in use to develop cloud applications today can be reused to build SCOOP instances. 
+A SCOOP instance roughly follows the well-known three-tier software architecture pattern [^SoftArchWiki] [^SoftArchIBM].  This pattern has been applied liberally, and SCOOP is no different. Let's use the [Wikipedia](https://en.wikipedia.org/wiki/File:Overview_of_a_three-tier_application_vectorVersion.svg) version as reference:
+![alt text](image-8.png)
 
-**Software Architecture**
+[^SoftArchWiki]: https://en.wikipedia.org/wiki/Multitier_architecture
+
+[^SoftArchIBM]: https://www.ibm.com/topics/three-tier-architecture
+
+Conventionally, the presentation tier implements the user interface.  However, the consumer for this interface may be another application, in which case this interface gets pushed down to the logic tier. Similarly, the logic tier may consist of at least two layers, the layer below implementing SCOOP's technical architecture and a business architecture layer next up. The data tier, traditionally the bottom layer becomes a supporting service to the technical architecture layer and hence gets pushed up.  The mapping from the traditional 3-tier architecture to SCOOP looks like the figure below:
+
+![alt text](image-9.png)
+
+The annotations on the left represent the traditional 3-tier nomenclature, and the ones on the right represent the SCOOP layering. The bottom tier represents the physical model for the industry domain, vertical or segment being represented. The model applies both to the target carbon removal, capture or avoidance entity as well as emissions. It consists of at least two layers: The target physical entity is at the bottom. The physical entity is not directly usable; it needs to be digitized through an array of sensors and effectors as well as algorithms for signal conditioning and error correction.  This capability is embodied as a digital twin sitting on top.
+
+The logic tier integrates the physical models for participating entities into a sector-specific logical model.  The business application model integrates data from the industry segment technical model into a form appropriate to support business applications.
 
 **Foundation Technologies**
 
 A goal for SCOOP is to generalize the original COOP architecture to encompass an industry sector without significant rework as more entities are incorporated into the sectoral model.  Let's call this new scheme scaled COOP, or simply SCOOP.  COOP models a single supply chain, from digital twin to financial market offerings. SCOOP becomes an IT carbon accounting platform, much larger in scope, with dozens, possibly hundreds of digital twin models representing a cross section of the target industry, with potentially multiple applications.  COOP is still there, as a particular case.
 The SCOOP architecture represents a trivial modification to the original COOP architecture.  Let's start with the original COOP architecture, shown in Figure 1.
 
-![alt text](image-4.png)
-
-*Figure 1. Original COOP architecture.*
-
-The carbon offset securities delivered from this system are traded through a fintech app, shown in Figure 2.
-
-![alt text](image-5.png)
-
-*Figure 2. Carbon offset trading app.*
-Now let's turn Figure 1 and Figure 2 on their side to form an application stack, shown in Figure 3.
-
-![alt text](image-6.png)
-
-*Figure 3. Carbon offset application stack.*
-Figure 3 represents a fintech carbon offset ecosystem dedicated to the trading of carbon offset securities.  Also note how this structure resembles that of a traditional 3-tier architecture for an enterprise Web application.  This is an example of a SCOOP application.  SCOOP need not be circumscribed to fintech applications.  It might be possible to tally up the set of UNFCCC Nationally Determined Contributions (NDCs) to emissions reductions for a particular country.  The scale for such an application would be enormous; a carbon offset accounting app for offset trading may encompass a handful of carbon capture suppliers and consumers.  An NDC app might comprise several thousand, representing one or more industry sectors or even countries.
-
-![alt text](image-7.png)
-
-*Figure 4. SCOOP industry sector ecosystem.*
+Finally, SCOOP needs the support from an array of foundation technologies at all levels. Supporting the physical tier requires technology to implement digital twins, deploy IOT-based digital sensors in the field, and various signal processing algorithms.  The industry segment logic and business app logic require data bases and data centers to function.  In the presentation tier, if the target application is carbon trading, then fintech becomes an essential component.
  
-
-[Seiger]: T. Heller, A. Seiger, Settling Climate Accounts: Navigating the Road to Net Zero, ISBN 978-3030836498, Palgrave Macmillan (October 21, 2021)
-
-
