@@ -92,7 +92,7 @@ SCOOP is also **open-ended with respect to applications**. A valuable trait of a
 
 An essential architectural trait of SCOOP is that to the extent possible, it does not assume technical or technological breakthroughs. Its value proposition derives from the integration of already existing components. The SCOOP  **software architecture** reflects this principle. The methodologies in use to develop cloud applications today can be reused to build SCOOP instances. 
 A SCOOP instance roughly follows the well-known three-tier software architecture pattern [^SoftArchWiki] [^SoftArchIBM].  This pattern has been applied liberally, and SCOOP is no different. Let's use the [Wikipedia](https://en.wikipedia.org/wiki/File:Overview_of_a_three-tier_application_vectorVersion.svg) version as reference:
-![alt text](image-8.png)
+![alt text](Wiki-3-tier.png)
 
 [^SoftArchWiki]: https://en.wikipedia.org/wiki/Multitier_architecture
 
@@ -100,7 +100,7 @@ A SCOOP instance roughly follows the well-known three-tier software architecture
 
 Conventionally, the presentation tier implements the user interface.  However, the consumer for this interface may be another application, in which case this interface gets pushed down to the logic tier. Similarly, the logic tier may consist of at least two layers, the layer below implementing SCOOP's technical architecture and a business architecture layer next up. The data tier, traditionally the bottom layer becomes a supporting service to the technical architecture layer and hence gets pushed up.  The mapping from the traditional 3-tier architecture to SCOOP looks like the figure below:
 
-![alt text](image-9.png)
+![alt text][def]
 
 The annotations on the left represent the traditional 3-tier nomenclature, and the ones on the right represent the SCOOP layering. The bottom tier represents the physical model for the industry domain, vertical or segment being represented. The model applies both to the target carbon removal, capture or avoidance entity as well as emissions. It consists of at least two layers: The target physical entity is at the bottom. The physical entity is not directly usable; it needs to be digitized through an array of sensors and effectors as well as algorithms for signal conditioning and error correction.  This capability is embodied as a digital twin sitting on top.
 
@@ -113,3 +113,5 @@ The SCOOP architecture represents a trivial modification to the original COOP ar
 
 Finally, SCOOP needs the support from an array of foundation technologies at all levels. Supporting the physical tier requires technology to implement digital twins, deploy IOT-based digital sensors in the field, and various signal processing algorithms.  The industry segment logic and business app logic require data bases and data centers to function.  In the presentation tier, if the target application is carbon trading, then fintech becomes an essential component.
  
+
+[def]: SCOOP-3-tier.png
