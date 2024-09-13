@@ -5,6 +5,8 @@ plugins:
   - search
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/logo.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -30,6 +32,7 @@ theme:
       accent: lime
   language: en
 
+# Navegation menu
 nav:
   - Home: 'index.md'
   - HowTos:
@@ -38,6 +41,7 @@ nav:
     - PoC: 'projects/proofOfConcept.md'
   - Research:
     - Symmetric encryption hardware: 'research/SymmetricEncryptionHardware.md'
+    - Total world carbon emission: 'research/totalCarbonEmissionResearch.md'
     - System architecture: 'research/architecture.md'
   - About: 'about.md'
 
