@@ -32,6 +32,7 @@ theme:
       accent: lime
   language: en
 
+# Navegation menu
 nav:
   - Home: 'index.md'
   - HowTos:
