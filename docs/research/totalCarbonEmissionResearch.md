@@ -2,4 +2,6 @@
 
 ![](totalCarbonEmissionResearch/main-diagram.svg)
 
+![](totalCarbonEmissionResearch/main-diagram.excalidraw)
+
 
