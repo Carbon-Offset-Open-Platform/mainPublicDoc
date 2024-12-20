@@ -40,6 +40,7 @@ nav:
   - Projects:
     - PoC: 'projects/proofOfConcept.md'
   - Research:
+    - A Vision For Global Carbon Accounting: 'research/aVisionForGlobalCarbonAccounting.md'
     - Symmetric encryption hardware: 'research/SymmetricEncryptionHardware.md'
     - Total world carbon emission: 'research/totalCarbonEmissionResearch.md'
     - System architecture: 'research/architecture.md'
