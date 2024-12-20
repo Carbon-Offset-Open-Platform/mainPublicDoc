@@ -25,14 +25,6 @@ The Carbon Offset Open Platform is an innovative, open-source initiative revolut
 - **Respect for Local Contributors**: The platform honors and respects the needs of local communities and project developers involved in carbon offset initiatives
 - **Fairness in the Market**: By providing a decentralized and transparent system, the platform aims to bring greater fairness to the carbon credit market, ensuring equitable distribution of benefits
 
-Increased Transparency: All transactions and project details are recorded on the blockchain, visible to all participants
-Reduced Costs: Automation and disintermediation lower transaction costs
-Global Accessibility: Anyone with internet access can participate in the carbon offset market
-Enhanced Trust: Blockchain's immutability ensures the integrity of offset data and transactions
-Respect for Local Contributors: The platform honors and respects the needs of local communities and project developers involved in carbon offset initiatives1
-9
-Fairness in the Market: By providing a decentralized and transparent system, the platform aims to bring greater fairness to the carbon credit market, ensuring equitable distribution of benefits
-
 ## Get Involved
 
 Join us in our mission to create a more sustainable future. Whether you're a developer, environmentalist, or business leader, there's a place for you in the Carbon Offset Open Platform community.
