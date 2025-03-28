@@ -44,6 +44,7 @@ nav:
     - Symmetric encryption hardware: 'research/SymmetricEncryptionHardware.md'
     - Total world carbon emission: 'research/totalCarbonEmissionResearch.md'
     - System architecture: 'research/architecture.md'
+  - Articles: articles.md
   - About: 'about.md'
 
 markdown_extensions:
