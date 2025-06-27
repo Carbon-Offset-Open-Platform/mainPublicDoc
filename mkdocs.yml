@@ -37,6 +37,7 @@ nav:
   - Home: 'index.md'
   - HowTos:
     - Documentation: 'howto/CollaborateWithDocumentation.md'
+    - Nebula: 'howto/NebulaOverlayNetwork.md'
   - Projects:
     - PoC: 'projects/proofOfConcept.md'
   - Research:
