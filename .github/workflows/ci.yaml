@@ -4,12 +4,10 @@ on:
   push:
     branches:
       - main
-      - master
       - develop
   pull_request:
     branches:
       - main
-      - master
     types: [opened, synchronize, reopened]
 
 env:
@@ -32,7 +30,7 @@ jobs:
       - name: Install MkDocs and dependencies
         run: |
           pip install --upgrade pip
-          pip install mkdocs-material mkdocs-minify-plugin minify
+          pip install mkdocs-material mkdocs-minify-plugin minify-html
           pip install markdown
 
       - name: Cache pip packages
